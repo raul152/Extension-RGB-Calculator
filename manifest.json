@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.2",
+    "name": "RGB Calculator",
+    "description": "RGB CALCULATOR USING JAVASCRIPT",
+    "author": "Raul Alves Da Silva",
+    "browser_action": {
+   	 "default_title": "RGB Calculator",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    }
+}

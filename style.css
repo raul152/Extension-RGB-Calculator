@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.calculator {
+	height: 400px;
+	width: 250px;
+	background: #333;
+	display: grid;
+	place-items: center;
+	color: #fff;
+	font-family: time news;
+}
+
+#box {
+	height: 40px;
+	width: 80%;
+	border: none;
+	outline: none;
+	outline: none;
+	text-align: center;
+}
+
+
+input[type="range"] {
+	-webkit-appearance: none;
+	height: 10px;
+	width: 80%;
+	border-radius: 50px;
+	outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: 25px;
+	width: 25px;
+	background: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.calculator #red {
+	background: linear-gradient(90deg, #000, red);
+}
+
+.calculator #green {
+	background: linear-gradient(90deg, #000, green);
+}
+
+.calculator #blue {
+	background: linear-gradient(90deg, #000, blue);
+}
